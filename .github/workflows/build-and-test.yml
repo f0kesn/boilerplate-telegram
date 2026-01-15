@@ -25,4 +25,4 @@ jobs:
         run: npm run build
 
       - name: Test
-        run: node -c dist/bot.js
+        run: npm test
